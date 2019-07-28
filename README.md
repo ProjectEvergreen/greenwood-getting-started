@@ -1,2 +1,3 @@
 # greenwood-getting-started
-Repository for Greenwood's getting started guide
+
+Repository for Greenwood's [Getting Started](TBD) guide.

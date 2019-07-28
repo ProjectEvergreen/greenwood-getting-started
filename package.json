@@ -1,0 +1,22 @@
+{
+  "name": "greenwood-getting-started",
+  "version": "1.0.0",
+  "description": "Repository for Greenwood's getting started guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thescientist13/greenwood-getting-started.git"
+  },
+  "keywords": [
+    "Greenwood"
+  ],
+  "author": "Owen Buckley <owen@thegreenhouse.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thescientist13/greenwood-getting-started/issues"
+  },
+  "homepage": "https://github.com/thescientist13/greenwood-getting-started#readme"
+}
