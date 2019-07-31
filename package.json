@@ -2,8 +2,10 @@
   "name": "greenwood-getting-started",
   "version": "1.0.0",
   "description": "Repository for Greenwood's getting started guide",
-  "main": "index.js",
   "scripts": {
+    "build": "node ./node_modules/greenwood/packages/cli/index.js build",
+    "develop": "node ./node_modules/greenwood/packages/cli/index.js develop",
+    "start": "npm run develop",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
