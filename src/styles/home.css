@@ -1,0 +1,36 @@
+:host {
+  & h3 {
+    color: green;
+  }
+
+  & .content {
+    background-color:white !important;
+    margin: 0 auto;
+    margin-top: 20px;
+    min-height: 600px;
+    background-color: #efefef;
+    padding: 0 15%;
+    font-size:1.2rem;
+
+    & h3 {
+      font-size:2rem;
+      margin: 5px 0;
+    }
+
+    & a {
+      color: #1d337a;
+    }
+  }
+  & .cards {
+    margin: 4rem -15%
+  }
+  & .message {
+    padding: 4rem;
+    text-align:center;
+    margin-bottom:4rem;
+
+    @media(max-width:768px) {
+      padding:0;
+    }
+  }
+}

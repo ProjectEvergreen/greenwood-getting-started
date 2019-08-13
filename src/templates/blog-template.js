@@ -1,6 +1,9 @@
 import { html, LitElement } from 'lit-element';
-import '../components/footer';
-import '../components/header';
+import '@evergreen-wc/eve-container';
+import '../components/footer/footer';
+import '../components/header/header';
+import '../styles/theme.css';
+import blogCss from '../styles/blog.css';
 
 MDIMPORT;
 METAIMPORT;
@@ -15,13 +18,21 @@ class BlogTemplate extends LitElement {
   render() {
     return html`
       <style>
-
+        ${blogCss}
       </style>
       
       METAELEMENT
 
-      <div class='container'>
-        <entry></entry>
+      <div class='wrapper'>
+        <app-header></app-header>
+
+        <eve-container fluid>
+          <div class='page-template content single-column'>
+            <entry></entry>
+          </div>
+        </eve-container>
+
+        <app-footer></app-footer>
       </div>
     `;
   }

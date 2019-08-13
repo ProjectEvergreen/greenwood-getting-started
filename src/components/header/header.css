@@ -1,0 +1,65 @@
+:host {
+  grid-area: header;
+  & .header {
+    background-color: #192a27;
+    min-height: 30px;
+    padding: 10px;
+    font-size: 1.2rem;
+
+    & a {
+      color: white;
+      text-decoration:none;
+    }
+
+    & h4 {
+      margin: 0 auto;
+      padding:0;
+      padding-top:4px;
+      display:inline-block;
+    }
+
+    & .head-wrap {
+      display: flex;
+      align-items:center;
+      flex-wrap:wrap;
+    }
+
+    & nav {
+      justify-items: left;
+      width: 55%;
+      & ul {
+        padding:0;
+        margin:0;
+        list-style: none;
+        & li {
+          color:white;
+          display: inline-block;
+          padding:10px;
+          &:hover {
+          color: #F9E7CA;
+            & a {
+              color:green;
+
+            }
+          }
+        }
+      }
+    }
+    & .brand {
+      justify-items: left;
+      padding: 10px;
+      & img {
+        float:left;
+        height: 30px;
+        width: 30px;
+      }
+    }
+    & .social {
+      margin-left:auto;
+      text-align: right;
+    }
+    & .project-name {
+      margin-top: -2px;
+    }
+  }
+}

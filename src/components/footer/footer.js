@@ -1,3 +1,5 @@
+import footerCss from './footer.css';
+
 class FooterComponent extends HTMLElement {
   constructor() {
     super();
@@ -13,7 +15,19 @@ class FooterComponent extends HTMLElement {
 
   // create templates that interpolate variables and HTML!
   getTemplate() {
-    return `<footer>This is the footer component.</footer>`;
+    const year = new Date().getFullYear();
+
+    return `
+      <style>
+        ${footerCss}
+      </style>
+
+      <footer class="footer">
+        <h4>
+          <a href="/">My Blog &copy; ${year}</a>
+        </h4>
+      </footer>
+    `;
   }
 }
 
