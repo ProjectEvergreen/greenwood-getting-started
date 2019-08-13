@@ -1,7 +1,9 @@
 # greenwood-getting-started
 
 ## Overview
-Repository for Greenwood's [Getting Started](TBD) guide.
+Companion repository for Greenwood's [Getting Started](https://www.greenwoodjs.io/getting-started) guide.
+
+![getting-started-screenshot](https://s3.amazonaws.com/hosted.greenwoodjs.io/getting-started-repo-styled.png)
 
 ## Development
 1. Clone the repo
