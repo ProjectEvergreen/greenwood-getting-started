@@ -27,7 +27,7 @@ class BlogTemplate extends LitElement {
         <app-header></app-header>
 
         <eve-container fluid>
-          <div class='page-template content single-column'>
+          <div class='page-template content'>
             <entry></entry>
           </div>
         </eve-container>

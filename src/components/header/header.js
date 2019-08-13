@@ -1,5 +1,5 @@
 import headerCss from './header.css';
-// import brand from '../../assets/brand.png';
+import logo from '../../assets/greenwood-logo.png';
 
 class HeaderComponent extends HTMLElement {
   constructor() {
@@ -25,17 +25,11 @@ class HeaderComponent extends HTMLElement {
         <eve-container fluid>
           <div class="head-wrap">
             <div class="brand">
-              <a href="https://www.greenwoodjs.io" target="_blank" rel="noopener noreferrer">
-                <img src="" />
+              <a href="/">
+                <img src="${logo}" />
+                <h4>My Personal Blog</h4>
               </a>
-              <h4 class="project-name">My Blog</h4>
             </div>
-            <nav>
-              <ul>
-                <a href="/"><li>Home</li></a>
-                <a href="/about-started"><li>About</li></a>
-              </ul>
-            </nav>
             <div class="social">
               <a href="">
                 <a href="https://github.com/ProjectEvergreen/greenwood">

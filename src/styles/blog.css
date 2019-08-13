@@ -12,20 +12,6 @@
     }
   }
 
-  & .sidebar {
-    width: 400px;
-    background-color: rgb(242, 236, 239);
-    height: 100vh;
-    overflow: auto;
-    padding: 2rem;
-
-    @media (max-width: 768px) {
-      width: 100%;
-      height: 100%;
-      padding: 0px;
-    }
-  }
-
   & .content {
     width: calc(100vw - 400px);
     height: 100vh;

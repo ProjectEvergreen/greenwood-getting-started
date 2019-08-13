@@ -1,5 +1,6 @@
 :host {
   grid-area: footer;
+
   & .footer {
     background-color: #192a27;
     min-height: 30px;
@@ -13,7 +14,7 @@
     }
 
     & a {
-      color: white;
+      color: #efefef;
       text-decoration:none;
     }
   }

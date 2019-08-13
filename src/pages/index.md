@@ -1,6 +1,6 @@
-## Home Page
+## Welcome!
 
-This is the Getting Started home page!
+Thanks for visiting my site, I hope you like it!
 
 ### My Posts
 - [my-second-post](/blog/second-post/)
