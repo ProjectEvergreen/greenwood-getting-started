@@ -1,6 +1,6 @@
 :host {
-  & h3 {
-    color: green;
+  & h3, a {
+    color: #1d337a;
   }
 
   & .content {
