@@ -27,7 +27,7 @@ class PageTemplate extends LitElement {
         <app-header></app-header>
 
         <eve-container fluid>
-          <div class='page-template content single-column'>
+          <div class='content'>
             <entry></entry>
           </div>
         </eve-container>

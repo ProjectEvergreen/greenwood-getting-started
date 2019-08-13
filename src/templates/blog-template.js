@@ -27,8 +27,16 @@ class BlogTemplate extends LitElement {
         <app-header></app-header>
 
         <eve-container fluid>
-          <div class='page-template content'>
+          <div class='page-template content'>            
             <entry></entry>
+
+            <h3>More Posts</h3>
+            <nav>
+              <ul>
+                <li><a href="/blog/second-post">My Second Post</a></li>
+                <li><a href="/blog/first-post">My First Post</a></li>
+              </ul>
+            </nav>
           </div>
         </eve-container>
 
