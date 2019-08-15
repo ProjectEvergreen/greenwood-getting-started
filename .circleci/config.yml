@@ -25,5 +25,9 @@ jobs:
           command: npm ci
 
       - run:
+          name: Install Project Dependencies
+          command: ./node_modules/.bin/eslint *.js ./src/**/**/*.js
+
+      - run:
           name: Run build
           command: npm run build
