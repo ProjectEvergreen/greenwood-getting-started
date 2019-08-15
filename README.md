@@ -13,4 +13,4 @@ Companion repository for Greenwood's [Getting Started](https://www.greenwoodjs.i
 ### Workflows
 - `npm start` - Runs `greenwood develop`
 - `npm run build` - Runs `greenwood build`
-- `npm run serve` - TBD
+- `npm run serve` - Runs the build and starts up a local web server at `localhost:8000`

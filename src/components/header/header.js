@@ -5,11 +5,11 @@ class HeaderComponent extends HTMLElement {
   constructor() {
     super();
 
-		// create a Shadow DOM
+    // create a Shadow DOM
     this.root = this.attachShadow({ mode: 'closed' });
   }
 
-	// run some code when the component is ready
+  // run some code when the component is ready
   connectedCallback() {
     this.root.innerHTML = this.getTemplate();
   }

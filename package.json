@@ -5,7 +5,8 @@
   "scripts": {
     "build": "greenwood build",
     "develop": "greenwood develop",
-    "start": "npm run develop"
+    "start": "npm run develop",
+    "serve": "rimraf ./public && npm run build && ws -d ./public"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/thescientist13/greenwood-getting-started#readme",
   "dependencies": {},
   "devDependencies": {
-    "@greenwood/cli": "^0.3.3"
+    "@greenwood/cli": "^0.3.3",
+    "eslint": "^6.1.0"
   }
 }
