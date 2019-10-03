@@ -2,6 +2,9 @@
   grid-area: footer;
 
   & .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #192a27;
     min-height: 30px;
     padding-top: 10px;
