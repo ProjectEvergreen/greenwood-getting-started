@@ -1,6 +1,5 @@
 :host {
   & .content {
-    width: calc(100vw - 400px);
     height: 85vh;
     margin: 20px auto 0;
     padding: 0 15%;
