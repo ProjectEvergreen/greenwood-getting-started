@@ -21,9 +21,11 @@
     "url": "https://github.com/thescientist13/greenwood-getting-started/issues"
   },
   "homepage": "https://github.com/thescientist13/greenwood-getting-started#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@evergreen-wc/eve-container": "0.0.9"
+  },
   "devDependencies": {
-    "@greenwood/cli": "^0.3.3",
+    "@greenwood/cli": "^0.4.0",
     "eslint": "^6.1.0"
   }
 }
