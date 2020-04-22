@@ -6,8 +6,6 @@ import '../styles/theme.css';
 import blogCss from '../styles/blog.css';
 
 MDIMPORT;
-METAIMPORT;
-METADATA;
 
 class BlogTemplate extends LitElement {
 
@@ -20,8 +18,6 @@ class BlogTemplate extends LitElement {
       <style>
         ${blogCss}
       </style>
-      
-      METAELEMENT
 
       <div class='wrapper'>
         <app-header></app-header>

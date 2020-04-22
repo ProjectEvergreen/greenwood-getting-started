@@ -6,8 +6,6 @@ import '../styles/theme.css';
 import pageCss from '../styles/home.css';
 
 MDIMPORT;
-METAIMPORT;
-METADATA;
 
 class PageTemplate extends LitElement {
 
@@ -20,8 +18,6 @@ class PageTemplate extends LitElement {
       <style>
         ${pageCss}
       </style>
-      
-      METAELEMENT
 
       <div class='wrapper'>
         <app-header></app-header>
