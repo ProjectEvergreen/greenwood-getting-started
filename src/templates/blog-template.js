@@ -5,8 +5,6 @@ import '../components/header/header';
 import '../styles/theme.css';
 import blogCss from '../styles/blog.css';
 
-MDIMPORT;
-
 class BlogTemplate extends LitElement {
 
   constructor() {
