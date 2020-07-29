@@ -5,8 +5,6 @@ import '../components/header/header';
 import '../styles/theme.css';
 import pageCss from '../styles/home.css';
 
-MDIMPORT;
-
 class PageTemplate extends LitElement {
 
   constructor() {
