@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og:http://ogp.me/ns#">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta-outlet></meta-outlet>
+  
+    <!-- TODO have to use forward slash / for path references?  translate on the fly in serve.js? -->
+    <script type="module" src="/components/footer/footer.js"></script>
+    <script type="module" src="/components/header/header.js"></script>
+    <script type="module">
+      import '@evergreen-wc/eve-container';
+    </script>
+
+    <link rel="stylesheet" href="/styles/theme.css"></link>
+    <link rel="stylesheet" href="/styles/home.css"></link>
+  </head>
+
+  <body>
+
+    <div class='wrapper'>
+      <app-header></app-header>
+
+      <eve-container fluid>
+        <div class='content'>
+          <content-outlet></content-outlet>
+        </div>
+      </eve-container>
+
+      <app-footer></app-footer>
+    </div>
+
+  </body>
+
+</html>
