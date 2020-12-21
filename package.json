@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thescientist13/greenwood-getting-started.git"
+    "url": "git+https://github.com/ProjectEvergreen/greenwood-getting-started.git"
   },
   "keywords": [
     "Greenwood"
@@ -18,9 +18,9 @@
   "author": "Owen Buckley <owen@thegreenhouse.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thescientist13/greenwood-getting-started/issues"
+    "url": "https://github.com/ProjectEvergreen/greenwood-getting-started/issues"
   },
-  "homepage": "https://github.com/thescientist13/greenwood-getting-started#readme",
+  "homepage": "https://github.com/ProjectEvergreen/greenwood-getting-started#readme",
   "dependencies": {
     "@evergreen-wc/eve-container": "0.0.9"
   },
