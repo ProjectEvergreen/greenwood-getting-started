@@ -1,9 +1,7 @@
 import { html, LitElement } from 'lit-element';
-import '@evergreen-wc/eve-container';
 import '../components/footer/footer';
 import '../components/header/header';
 import '../styles/theme.css';
-import pageCss from '../styles/home.css';
 
 class PageTemplate extends LitElement {
 
@@ -14,17 +12,31 @@ class PageTemplate extends LitElement {
   render() {
     return html`
       <style>
-        ${pageCss}
+      .content {
+        flex: 1;
+        max-width: 50em;
+        height: 100%;
+        overflow: scroll;
+        margin: auto;
+        font-size: 1.2rem;
+        padding: 2rem;
+      }
+      .content h3 {
+        color: #0b6623;
+        font-size: 2rem;
+        margin: 5px 0;
+      }
+      .content a {
+        color: #1d337a;
+      }
       </style>
 
-      <div class='wrapper'>
+      <div>
         <app-header></app-header>
 
-        <eve-container fluid>
           <div class='content'>
             <entry></entry>
           </div>
-        </eve-container>
 
         <app-footer></app-footer>
       </div>

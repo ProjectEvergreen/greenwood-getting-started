@@ -6,7 +6,8 @@
     "build": "greenwood build",
     "develop": "greenwood develop",
     "start": "npm run develop",
-    "serve": "rimraf ./public && npm run build && ws -d ./public"
+    "serve": "rimraf ./public && npm run build && ws -d ./public",
+    "lint:js": "eslint \"*.js\" \"./src/**/**/*.js\""
   },
   "repository": {
     "type": "git",
@@ -21,9 +22,6 @@
     "url": "https://github.com/ProjectEvergreen/greenwood-getting-started/issues"
   },
   "homepage": "https://github.com/ProjectEvergreen/greenwood-getting-started#readme",
-  "dependencies": {
-    "@evergreen-wc/eve-container": "0.0.9"
-  },
   "devDependencies": {
     "@greenwood/cli": "^0.9.0",
     "eslint": "^6.1.0"
