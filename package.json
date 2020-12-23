@@ -6,8 +6,7 @@
     "build": "greenwood build",
     "develop": "greenwood develop",
     "start": "npm run develop",
-    "serve": "rimraf ./public && npm run build && ws -d ./public",
-    "lint:js": "eslint \"*.js\" \"./src/**/**/*.js\""
+    "serve": "rimraf ./public && npm run build && ws -d ./public"
   },
   "repository": {
     "type": "git",
