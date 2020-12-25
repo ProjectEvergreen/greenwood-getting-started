@@ -19,6 +19,9 @@ jobs:
     - name: Installing project dependencies
       run: |
         npm ci
+    - name: Lint
+      run: |
+        npm run lint
     - name: Build
       run: |
         npm run build
