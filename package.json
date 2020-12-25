@@ -21,9 +21,6 @@
     "url": "https://github.com/ProjectEvergreen/greenwood-getting-started/issues"
   },
   "homepage": "https://github.com/ProjectEvergreen/greenwood-getting-started#readme",
-  "dependencies": {
-    "@evergreen-wc/eve-container": "0.0.9"
-  },
   "devDependencies": {
     "@greenwood/cli": "^0.9.0",
     "eslint": "^6.1.0"

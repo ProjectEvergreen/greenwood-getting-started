@@ -1,9 +1,7 @@
 import { html, LitElement } from 'lit-element';
-import '@evergreen-wc/eve-container';
 import '../components/footer/footer';
 import '../components/header/header';
 import '../styles/theme.css';
-import blogCss from '../styles/blog.css';
 
 class BlogTemplate extends LitElement {
 
@@ -14,14 +12,31 @@ class BlogTemplate extends LitElement {
   render() {
     return html`
       <style>
-        ${blogCss}
+       .content {
+        flex: 1;
+        max-width: 50em;
+        height: 100%;
+        overflow: scroll;
+        margin: auto;
+        font-size: 1.2rem;
+        padding: 2rem;
+      }
+      .content h2 {
+        color: #0b6623;
+      }
+      .content h2, & h3 {
+        font-size: 2rem;
+        margin: 5px 0;
+      }
+      .content a {
+        color: #1d337a;
+      }
       </style>
 
-      <div class='wrapper'>
+      <div>
         <app-header></app-header>
 
-        <eve-container fluid>
-          <div class='page-template content'>            
+          <div class='page-template content'>
             <entry></entry>
 
             <h3>More Posts</h3>
@@ -32,7 +47,6 @@ class BlogTemplate extends LitElement {
               </ul>
             </nav>
           </div>
-        </eve-container>
 
         <app-footer></app-footer>
       </div>

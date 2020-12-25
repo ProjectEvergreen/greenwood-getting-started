@@ -1,4 +1,3 @@
-import headerCss from './header.css';
 import logo from '../../assets/greenwood-logo.png';
 
 class HeaderComponent extends HTMLElement {
@@ -18,27 +17,60 @@ class HeaderComponent extends HTMLElement {
   getTemplate() {
     return `
       <style>
-        ${headerCss}
+      .header {
+        background-color: #192a27;
+        min-height: 30px;
+        padding: 10px;
+        font-size: 1.2rem;
+      }
+
+      .header h4 {
+        margin: 0 auto;
+        padding: 4px 0 0 10px;
+        display: inline-block;
+        color: #efefef;
+      }
+
+      .head-wrap {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .brand {
+        justify-items: left;
+        padding: 10px;
+      }
+
+      .brand img {
+        float:left;
+        height: 30px;
+        width: 30px;
+      }
+
+      .header .social {
+        margin-left:auto;
+        text-align: right;
+      }
+
       </style>
 
       <header class="header">
-        <eve-container fluid>
-          <div class="head-wrap">
-            <div class="brand">
-              <a href="/">
-                <img src="${logo}" />
-                <h4>My Personal Blog</h4>
-              </a>
-            </div>
-            <div class="social">
-              <a href="">
-                <a href="https://github.com/ProjectEvergreen/greenwood">
-                  <img src="https://img.shields.io/github/stars/ProjectEvergreen/greenwood.svg?style=social&logo=github&label=github" />
-                </a>
-              </a>
-            </div>
+        <div class="head-wrap">
+          <div class="brand">
+            <a href="/">
+              <img src="${logo}" />
+              <h4>My Personal Blog</h4>
+            </a>
           </div>
-        </eve-container>
+          <div class="social">
+            <a href="">
+              <a href="https://github.com/ProjectEvergreen/greenwood">
+                <img src="https://img.shields.io/github/stars/ProjectEvergreen/greenwood.svg?style=social&logo=github&label=github" />
+              </a>
+            </a>
+          </div>
+        </div>
       </header>
     `;
   }
