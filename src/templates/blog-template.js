@@ -16,7 +16,6 @@ class BlogTemplate extends LitElement {
         flex: 1;
         max-width: 50em;
         height: 100%;
-        overflow: scroll;
         margin: auto;
         font-size: 1.2rem;
         padding: 2rem;
