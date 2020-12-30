@@ -11,7 +11,8 @@
   color: #0b6623;
 }
 
-.content h2, .content h3 {
+.content h2,
+.content h3 {
   font-size: 2rem;
   margin: 5px 0;
 }
