@@ -1,5 +1,3 @@
-import logo from '../../assets/greenwood-logo.png';
-
 class HeaderComponent extends HTMLElement {
   constructor() {
     super();
@@ -59,7 +57,7 @@ class HeaderComponent extends HTMLElement {
         <div class="head-wrap">
           <div class="brand">
             <a href="/">
-              <img src="${logo}" />
+              <img src="/assets/greenwood-logo.png"
               <h4>My Personal Blog</h4>
             </a>
           </div>

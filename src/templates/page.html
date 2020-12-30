@@ -12,9 +12,6 @@
     <!-- TODO have to use forward slash / for path references?  translate on the fly in serve.js? -->
     <script type="module" src="/components/footer/footer.js"></script>
     <script type="module" src="/components/header/header.js"></script>
-    <script type="module">
-      import '@evergreen-wc/eve-container';
-    </script>
 
     <link rel="stylesheet" href="/styles/theme.css"></link>
     <link rel="stylesheet" href="/styles/home.css"></link>
@@ -22,15 +19,13 @@
 
   <body>
 
-    <div class='wrapper'>
+    <div>
       <app-header></app-header>
-
-      <eve-container fluid>
-        <div class='content'>
-          <content-outlet></content-outlet>
-        </div>
-      </eve-container>
-
+      
+      <div class='content'>
+        <content-outlet></content-outlet>
+      </div>
+      
       <app-footer></app-footer>
     </div>
 
