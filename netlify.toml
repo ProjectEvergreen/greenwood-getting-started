@@ -5,5 +5,6 @@
 [build.processing]
   skip_processing = true
 
-[context.production]
-  environment = { NODE_VERSION = "12.13.0" }
+
+[build.environment]
+  NODE_VERSION = "12.13.0"
