@@ -16,3 +16,7 @@
 .content a {
   color: #1d337a;
 }
+
+.content ul li {
+  padding: 5px 0;
+}

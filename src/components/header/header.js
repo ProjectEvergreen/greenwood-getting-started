@@ -57,15 +57,15 @@ class HeaderComponent extends HTMLElement {
         <div class="head-wrap">
           <div class="brand">
             <a href="/">
-              <img src="/assets/greenwood-logo.png"
+              <img src="/assets/greenwood-logo.png" alt="Greenwood logo"/>
               <h4>My Personal Blog</h4>
             </a>
           </div>
           <div class="social">
-            <a href="">
-              <a href="https://github.com/ProjectEvergreen/greenwood">
-                <img src="https://img.shields.io/github/stars/ProjectEvergreen/greenwood.svg?style=social&logo=github&label=github" />
-              </a>
+            <a href="https://github.com/ProjectEvergreen/greenwood">
+              <img 
+                src="https://img.shields.io/github/stars/ProjectEvergreen/greenwood.svg?style=social&logo=github&label=github" 
+                alt="Greenwood GitHub badge"/>
             </a>
           </div>
         </div>
