@@ -51,6 +51,12 @@ class HeaderComponent extends HTMLElement {
         text-align: right;
       }
 
+      .header img.github-badge {
+        display: inline-block;
+        width: 90px;
+        height: 20px;
+      }
+
       </style>
 
       <header class="header">
@@ -65,7 +71,8 @@ class HeaderComponent extends HTMLElement {
             <a href="https://github.com/ProjectEvergreen/greenwood">
               <img 
                 src="https://img.shields.io/github/stars/ProjectEvergreen/greenwood.svg?style=social&logo=github&label=github" 
-                alt="Greenwood GitHub badge"/>
+                alt="Greenwood GitHub badge"
+                class="github-badge"/>
             </a>
           </div>
         </div>
