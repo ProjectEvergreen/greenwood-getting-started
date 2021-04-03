@@ -1,5 +1,3 @@
-import logo from '../../assets/greenwood-logo.png';
-
 class HeaderComponent extends HTMLElement {
   constructor() {
     super();
@@ -53,21 +51,28 @@ class HeaderComponent extends HTMLElement {
         text-align: right;
       }
 
+      .header img.github-badge {
+        display: inline-block;
+        width: 90px;
+        height: 20px;
+      }
+
       </style>
 
       <header class="header">
         <div class="head-wrap">
           <div class="brand">
             <a href="/">
-              <img src="${logo}" />
+              <img src="/assets/greenwood-logo.png" alt="Greenwood logo"/>
               <h4>My Personal Blog</h4>
             </a>
           </div>
           <div class="social">
-            <a href="">
-              <a href="https://github.com/ProjectEvergreen/greenwood">
-                <img src="https://img.shields.io/github/stars/ProjectEvergreen/greenwood.svg?style=social&logo=github&label=github" />
-              </a>
+            <a href="https://github.com/ProjectEvergreen/greenwood">
+              <img 
+                src="https://img.shields.io/github/stars/ProjectEvergreen/greenwood.svg?style=social&logo=github&label=github" 
+                alt="Greenwood GitHub badge"
+                class="github-badge"/>
             </a>
           </div>
         </div>
