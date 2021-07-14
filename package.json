@@ -16,7 +16,9 @@
     "url": "git+https://github.com/ProjectEvergreen/greenwood-getting-started.git"
   },
   "keywords": [
-    "Greenwood"
+    "Greenwood",
+    "Static Site Generator",
+    "SSG"
   ],
   "author": "Owen Buckley <owen@thegreenhouse.io>",
   "license": "MIT",
@@ -25,7 +27,7 @@
   },
   "homepage": "https://github.com/ProjectEvergreen/greenwood-getting-started#readme",
   "devDependencies": {
-    "@greenwood/cli": "~0.14.0",
+    "@greenwood/cli": "~0.14.1",
     "@ls-lint/ls-lint": "^1.9.2",
     "eslint": "^6.1.0",
     "stylelint": "^13.8.0",
