@@ -4,10 +4,10 @@
   "description": "Repository for Greenwood's getting started guide",
   "type": "module",
   "scripts": {
-    "build": "greenwood build",
+    "build": "NODE_ENV=production greenwood build",
     "develop": "greenwood develop",
     "start": "npm run develop",
-    "serve": "rimraf ./public && greenwood serve",
+    "serve": "rimraf ./public && NODE_ENV=production greenwood serve",
     "lint:js": "eslint \"*.js\" \"./src/**/**/*.js\"",
     "lint:css": "stylelint \"./src/**/*.js\", \"./src/**/*.css\"",
     "lint": "ls-lint && npm run lint:js && npm run lint:css"
@@ -32,10 +32,13 @@
   "homepage": "https://github.com/ProjectEvergreen/greenwood-getting-started#readme",
   "devDependencies": {
     "@greenwood/cli": "~0.20.0",
+    "@greenwood/plugin-postcss": "^0.20.0",
     "@ls-lint/ls-lint": "^1.10.0",
+    "autoprefixer": "^10.4.0",
     "eslint": "^8.4.0",
     "stylelint": "^13.8.0",
     "stylelint-a11y": "^1.2.3",
-    "stylelint-config-standard": "^20.0.0"
+    "stylelint-config-standard": "^20.0.0",
+    "tailwindcss": "^3.0.7"
   }
 }
