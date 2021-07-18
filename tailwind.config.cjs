@@ -1,5 +1,3 @@
-console.debug('for prod?', process.env.NODE_ENV);
-
 module.exports = {
   content: [
     './src/**/*.html',
