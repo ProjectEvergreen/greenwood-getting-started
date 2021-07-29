@@ -2,7 +2,7 @@ class FooterComponent extends HTMLElement {
   constructor() {
     super();
 
-    // create a Shadow DOM
+    // create a Shadow root
     this.root = this.attachShadow({ mode: 'closed' });
   }
 
