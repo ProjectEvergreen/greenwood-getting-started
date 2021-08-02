@@ -6,8 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta-outlet></meta-outlet>
   
+    <!-- Your application must load the Roboto and Material Icons fonts. -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons&display=block" rel="stylesheet">
+
     <script type="module" src="../components/footer/footer.js"></script>
     <script type="module" src="../components/header/header.js"></script>
+
+    <!-- The Material Web Components use standard JavaScript modules. -->
+    <script type="module">
+
+      // Importing this module registers <mwc-button> as an element that you
+      // can use in this page.
+      //
+      // Note this import is a bare module specifier, so it must be converted
+      // to a path using a server such as Web Dev Server.
+      import '@material/mwc-button';
+
+      // Standard DOM APIs work with Web Components just like they do for
+      // built-in elements.
+      // const button = document.querySelector('#myButton');
+      // button.addEventListener('click', () => {
+      //   alert('You clicked!');
+      // });
+    </script>
 
     <link rel="stylesheet" href="../styles/theme.css"></link>
     <link rel="stylesheet" href="../styles/home.css"></link>
@@ -19,6 +41,9 @@
       <app-header></app-header>
       
       <div class='content'>
+        <!-- Use Web Components in your HTML like regular built-in elements. -->
+        <mwc-button id="myButton" label="Click Me!" raised></mwc-button>
+
         <content-outlet></content-outlet>
       </div>
       
