@@ -30,15 +30,16 @@
     "url": "https://github.com/ProjectEvergreen/greenwood-getting-started/issues"
   },
   "homepage": "https://github.com/ProjectEvergreen/greenwood-getting-started#readme",
+  "dependencies": {
+    "@material/mwc-button": "^0.22.1"
+  },
   "devDependencies": {
     "@greenwood/cli": "~0.23.0",
+    "@greenwood/plugin-import-css": "~0.23.0",
     "@ls-lint/ls-lint": "^1.10.0",
     "eslint": "^8.4.0",
     "stylelint": "^13.8.0",
     "stylelint-a11y": "^1.2.3",
     "stylelint-config-standard": "^20.0.0"
-  },
-  "dependencies": {
-    "@material/mwc-button": "^0.22.1"
   }
 }
