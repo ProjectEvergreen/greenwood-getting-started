@@ -37,5 +37,10 @@
     "stylelint": "^13.8.0",
     "stylelint-a11y": "^1.2.3",
     "stylelint-config-standard": "^20.0.0"
+  },
+  "dependencies": {
+    "@lion/button": "^0.14.3",
+    "@lion/calendar": "^0.16.5",
+    "@lion/tabs": "^0.9.3"
   }
 }
