@@ -23,19 +23,19 @@
 
     <div>
       <app-header></app-header>
-      
-      <lion-button>This is a Lion button.</lion-button>
-      
-      <lion-calendar></lion-calendar>
-
-      <lion-tabs>
-        <button slot="tab">Info</button>
-        <p slot="panel">Info page with lots of information about us.</p>
-        <button slot="tab">Work</button>
-        <p slot="panel">Work page that showcases our work.</p>
-      </lion-tabs>
 
       <div class='content'>
+        <lion-button>This is a Lion button.</lion-button>
+
+        <lion-calendar></lion-calendar>
+
+        <lion-tabs>
+          <button slot="tab">Info</button>
+          <p slot="panel">Info page with lots of information about us.</p>
+          <button slot="tab">Work</button>
+          <p slot="panel">Work page that showcases our work.</p>
+        </lion-tabs>
+
         <content-outlet></content-outlet>
       </div>
       
