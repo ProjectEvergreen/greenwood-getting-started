@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/ProjectEvergreen/greenwood-getting-started#readme",
   "devDependencies": {
-    "@greenwood/cli": "^0.15.2",
+    "@greenwood/cli": "^0.16.0-alpha.0",
     "@ls-lint/ls-lint": "^1.9.2",
     "eslint": "^6.1.0",
     "stylelint": "^13.8.0",
