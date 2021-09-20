@@ -20,6 +20,9 @@
     "Static Site Generator",
     "SSG"
   ],
+  "engines": {
+    "npm": ">=7.x"
+  },
   "author": "Owen Buckley <owen@thegreenhouse.io>",
   "license": "MIT",
   "bugs": {
