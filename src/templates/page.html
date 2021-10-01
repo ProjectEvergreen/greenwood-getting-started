@@ -11,6 +11,17 @@
 
     <link rel="stylesheet" href="../styles/theme.css"></link>
     <link rel="stylesheet" href="../styles/home.css"></link>
+
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script>
+      $(document).ready(() => {
+        $('button.continue')
+          .html('Next Step...')
+          .on('click', (event) => {
+            alert('On to the Next Step!');
+          });
+      });
+    </script>
   </head>
 
   <body>
@@ -19,6 +30,7 @@
       <app-header></app-header>
       
       <div class='content'>
+        <button class="continue"></button>
         <content-outlet></content-outlet>
       </div>
       
