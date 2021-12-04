@@ -1,6 +1,9 @@
-const pkg = require('./package.json');
+import fs from 'fs/promises';
+import { URL } from 'url';
 
-module.exports = {
+const pkg = JSON.parse((await fs.readFile( new URL('./package.json', import.meta.url), 'utf-8')));
+
+export default {
   title: 'My Personal Blog',
   meta: [
     { rel: 'icon', href: '/assets/favicon.ico' },
