@@ -1,7 +1,6 @@
-import fs from 'fs/promises';
-import { URL } from 'url';
+import fs from 'fs';
 
-const pkg = JSON.parse((await fs.readFile( new URL('./package.json', import.meta.url), 'utf-8')));
+const pkg = JSON.parse(fs.readFileSync('./package.json', 'utf-8'));
 
 export default {
   title: 'My Personal Blog',
