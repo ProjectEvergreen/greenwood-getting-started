@@ -1,5 +1,7 @@
 @import url('//fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
+$red: red;
+
 * {
   margin: 0;
   padding: 0;
@@ -10,4 +12,10 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.4;
+}
+
+body {
+  h2 {
+    color: $red;
+  }
 }
