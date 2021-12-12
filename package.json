@@ -30,6 +30,9 @@
     "url": "https://github.com/ProjectEvergreen/greenwood-getting-started/issues"
   },
   "homepage": "https://github.com/ProjectEvergreen/greenwood-getting-started#readme",
+  "dependencies": {
+    "uswds": "^3.0.0-beta.1"
+  },
   "devDependencies": {
     "@greenwood/cli": "~0.20.0",
     "@ls-lint/ls-lint": "^1.10.0",

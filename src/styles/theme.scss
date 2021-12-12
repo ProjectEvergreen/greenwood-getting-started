@@ -1,6 +1,15 @@
 @import url('//fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
-$red: red;
+// Include a USWDS settings file (required)
+@import "./uswds-settings.scss";
+
+// Point to theå USWDS source code (required)
+@import "../../node_modules/uswds/dist/scss/stylesheets/uswds.scss";
+
+// Include your project's custom Sass (optional)
+// @include "project-custom.scss";
+
+$red: red!important;
 
 * {
   margin: 0;
@@ -15,7 +24,7 @@ body {
 }
 
 body {
-  h2 {
+  h3 {
     color: $red;
   }
 }
