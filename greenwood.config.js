@@ -1,6 +1,8 @@
-const pkg = require('./package.json');
+import fs from 'fs';
 
-module.exports = {
+const pkg = JSON.parse(fs.readFileSync('./package.json', 'utf-8'));
+
+export default {
   title: 'My Personal Blog',
   meta: [
     { rel: 'icon', href: '/assets/favicon.ico' },
