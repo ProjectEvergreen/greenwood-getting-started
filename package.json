@@ -37,5 +37,8 @@
     "stylelint": "^13.8.0",
     "stylelint-a11y": "^1.2.3",
     "stylelint-config-standard": "^20.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
   }
 }
