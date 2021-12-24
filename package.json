@@ -31,11 +31,10 @@
   },
   "homepage": "https://github.com/ProjectEvergreen/greenwood-getting-started#readme",
   "devDependencies": {
-    "@greenwood/cli": "~0.20.0",
-    "@greenwood/plugin-postcss": "^0.20.0",
+    "@greenwood/cli": "^0.20.2",
+    "@greenwood/plugin-postcss": "^0.20.2",
     "@ls-lint/ls-lint": "^1.10.0",
     "autoprefixer": "^10.4.0",
-    "eslint": "^8.4.0",
     "cross-env": "^7.0.3",
     "eslint": "^8.4.0",
     "stylelint": "^13.8.0",
