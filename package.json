@@ -30,10 +30,15 @@
     "url": "https://github.com/ProjectEvergreen/greenwood-getting-started/issues"
   },
   "homepage": "https://github.com/ProjectEvergreen/greenwood-getting-started#readme",
+  "dependencies": {
+    "uswds": "^3.0.0-beta.1"
+  },
   "devDependencies": {
     "@greenwood/cli": "~0.22.0",
     "@ls-lint/ls-lint": "^1.10.0",
     "eslint": "^8.4.0",
+    "rollup-plugin-sass": "^1.2.2",
+    "sass": "^1.36.0",
     "stylelint": "^13.8.0",
     "stylelint-a11y": "^1.2.3",
     "stylelint-config-standard": "^20.0.0"

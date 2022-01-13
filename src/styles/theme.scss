@@ -1,0 +1,30 @@
+@import url('//fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+// Include a USWDS settings file (required)
+@import "./uswds-settings.scss";
+
+// Point to the USWDS source code (required)
+@import "../../node_modules/uswds/dist/scss/stylesheets/uswds.scss";
+
+// Include your project's custom Sass (optional)
+// @include "project-custom.scss";
+
+$red: red!important;
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.4;
+}
+
+body {
+  h3 {
+    color: $red;
+  }
+}
