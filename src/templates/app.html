@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og:http://ogp.me/ns#">
+
+  <head>
+    <title>My Personal Blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My cool blog!  Thanks for being here."/>
+    <link rel="shortcut icon" href="/favicon.ico"/>
+    <link rel="icon" href="/favicon.ico"/>
+  
+    <script type="module" src="../components/footer/footer.js"></script>
+    <script type="module" src="../components/header/header.js"></script>
+
+    <link rel="stylesheet" href="../styles/theme.css"></link>
+    <link rel="stylesheet" href="../styles/home.css"></link>
+  </head>
+
+  <body>
+
+    <div>
+      <app-header></app-header>
+      
+      <div class='content'>
+        <page-outlet></page-outlet>
+      </div>
+      
+      <app-footer></app-footer>
+    </div>
+
+  </body>
+
+</html>
