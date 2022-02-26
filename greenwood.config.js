@@ -1,4 +1,5 @@
 import fs from 'fs';
+import { greenwoodPluginImportCss } from '@greenwood/plugin-import-css';
 
 const pkg = JSON.parse(fs.readFileSync('./package.json', 'utf-8'));
 
@@ -7,5 +8,8 @@ export default {
   meta: [
     { rel: 'icon', href: '/assets/favicon.ico' },
     { name: 'description', content: pkg.description } // replace the pkg.description with a custom string if you prefer
+  ],
+  plugins: [
+    ...greenwoodPluginImportCss()
   ]
 };
