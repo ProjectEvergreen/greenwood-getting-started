@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" prefix="og:http://ogp.me/ns#">
+<html lang="en-GB" prefix="og:http://ogp.me/ns#">
 
   <head>
     <meta charset="utf-8">
@@ -11,14 +11,31 @@
 
     <link rel="stylesheet" href="../styles/theme.css"></link>
     <link rel="stylesheet" href="../styles/home.css"></link>
+
+    <script type="module">
+      import '@lion/button/define';
+      import '@lion/calendar/define';
+      import '@lion/tabs/define';
+    </script>
   </head>
 
   <body>
 
     <div>
       <app-header></app-header>
-      
+
       <div class='content'>
+        <lion-button>This is a Lion button.</lion-button>
+
+        <lion-calendar></lion-calendar>
+
+        <lion-tabs>
+          <button slot="tab">Info</button>
+          <p slot="panel">Info page with lots of information about us.</p>
+          <button slot="tab">Work</button>
+          <p slot="panel">Work page that showcases our work.</p>
+        </lion-tabs>
+
         <content-outlet></content-outlet>
       </div>
       
