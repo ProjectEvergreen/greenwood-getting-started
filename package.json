@@ -8,7 +8,7 @@
     "develop": "greenwood develop",
     "start": "npm run develop",
     "serve": "rimraf ./public && greenwood serve",
-    "lint:js": "eslint \"*.js\" \"./src/**/**/*.js\"",
+    "lint:js": "eslint \"./src/**/**/*.js\"",
     "lint:css": "stylelint \"./src/**/*.js\", \"./src/**/*.css\"",
     "lint": "ls-lint && npm run lint:js && npm run lint:css"
   },
@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/ProjectEvergreen/greenwood-getting-started#readme",
   "devDependencies": {
-    "@greenwood/cli": "~0.23.0",
+    "@greenwood/cli": "~0.24.0",
     "@ls-lint/ls-lint": "^1.10.0",
     "eslint": "^8.4.0",
     "stylelint": "^13.8.0",
