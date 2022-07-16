@@ -1,3 +1,8 @@
+import { greenwoodPluginRendererPuppeteer } from '@greenwood/plugin-renderer-puppeteer';
+
 export default {
-  prerender: true
+
+  plugins: [
+    ...greenwoodPluginRendererPuppeteer()
+  ]
 };
