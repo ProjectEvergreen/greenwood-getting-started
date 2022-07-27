@@ -1,14 +1,7 @@
-class HeaderComponent extends HTMLElement {
-  constructor() {
-    super();
-
-    // create a Shadow root
-    this.root = this.attachShadow({ mode: 'closed' });
-  }
-
-  // run some code when the component is ready
+export default class HeaderComponent extends HTMLElement {
+  // run some code to set HTML when the component is ready
   connectedCallback() {
-    this.root.innerHTML = this.getTemplate();
+    this.innerHTML = this.getTemplate();
   }
 
   // create templates that interpolate variables and HTML!
