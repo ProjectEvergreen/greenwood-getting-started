@@ -18,8 +18,11 @@
   },
   "keywords": [
     "Greenwood",
+    "Web Components",
     "Static Site Generator",
-    "SSG"
+    "Server Side Rendering",
+    "SSG",
+    "SSR"
   ],
   "engines": {
     "npm": ">=7.x"
@@ -31,7 +34,7 @@
   },
   "homepage": "https://github.com/ProjectEvergreen/greenwood-getting-started#readme",
   "devDependencies": {
-    "@greenwood/cli": "~0.26.0",
+    "@greenwood/cli": "~0.27.0",
     "@ls-lint/ls-lint": "^1.10.0",
     "eslint": "^8.4.0",
     "stylelint": "^13.8.0",
