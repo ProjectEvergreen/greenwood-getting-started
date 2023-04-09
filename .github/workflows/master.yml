@@ -8,17 +8,17 @@ on:
 jobs:
 
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - name: Install Chromium Library Dependencies
       run: |
         sh ./.github/workflows/chromium-lib-install.sh
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v3
       with:
-        node-version: 14.17.0
+        node-version: 18.12.1
     - name: Installing project dependencies
       run: |
         npm ci
