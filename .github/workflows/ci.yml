@@ -7,15 +7,18 @@ jobs:
   build:
     runs-on: ubuntu-20.04
 
+    strategy:
+      matrix:
+        node: [18]
+
     steps:
     - uses: actions/checkout@v2
     - name: Install Chromium Library Dependencies
       run: |
         sh ./.github/workflows/chromium-lib-install.sh
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
+    - uses: actions/setup-node@v3
       with:
-        node-version: 18.12.1
+        node-version: ${{ matrix.node }}
     - name: Installing project dependencies
       run: |
         npm ci
