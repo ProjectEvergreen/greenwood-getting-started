@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "greenwood build",
-    "develop": "greenwood develop",
-    "start": "npm run develop",
+    "dev": "greenwood develop",
+    "start": "npm run dev",
     "serve": "rimraf ./public && npm run build && greenwood serve",
     "lint:js": "eslint \"./src/**/**/*.js\"",
     "lint:css": "stylelint \"./src/**/*.js\", \"./src/**/*.css\"",
@@ -33,6 +33,9 @@
     "url": "https://github.com/ProjectEvergreen/greenwood-getting-started/issues"
   },
   "homepage": "https://github.com/ProjectEvergreen/greenwood-getting-started#readme",
+  "overrides": {
+    "wc-compiler": "^0.14.0"
+  },
   "devDependencies": {
     "@greenwood/cli": "~0.30.0",
     "@ls-lint/ls-lint": "^1.10.0",
