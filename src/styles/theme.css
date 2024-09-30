@@ -11,3 +11,19 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.4;
 }
+
+:root {
+  --color-accent: #016341;
+  --color-link: #1d337a;
+  --color-bg: #192a27;
+}
+
+h2 {
+  color: var(--color-accent);
+  font-size: 2rem;
+  margin: 5px 0;
+}
+
+a {
+  color: var(--color-link);
+}

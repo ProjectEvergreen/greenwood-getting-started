@@ -33,9 +33,6 @@
     "url": "https://github.com/ProjectEvergreen/greenwood-getting-started/issues"
   },
   "homepage": "https://github.com/ProjectEvergreen/greenwood-getting-started#readme",
-  "overrides": {
-    "wc-compiler": "^0.14.0"
-  },
   "devDependencies": {
     "@greenwood/cli": "~0.30.0",
     "@ls-lint/ls-lint": "^1.10.0",

@@ -11,19 +11,21 @@ export default class FooterComponent extends HTMLElement {
             position: fixed;
             bottom: 0;
             width: 100%;
-            background-color: #192a27;
+            background-color: var(--color-bg);
             min-height: 30px;
             padding-top: 10px;
-          }
-          .footer a {
-            color: #efefef;
-            text-decoration: none;
-          }
-          .footer h4 {
-            width: 90%;
-            margin: 0 auto;
-            padding: 0;
-            text-align: center;
+
+            & a {
+              color: #efefef;
+              text-decoration: none;
+            }
+
+            & h4 {
+              width: 90%;
+              margin: 0 auto;
+              padding: 0;
+              text-align: center;
+            }
           }
         </style>
         <footer class="footer">
