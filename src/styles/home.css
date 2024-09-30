@@ -6,7 +6,8 @@ main {
   font-size: 1.2rem;
   padding: 2rem;
 
-  & h1, h2 {
+  & h1,
+  & h2 {
     margin: 10px 0;
   }
 
