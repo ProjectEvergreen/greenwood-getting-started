@@ -5,18 +5,16 @@ on: [pull_request]
 jobs:
 
   build:
-    runs-on: ${{ matrix.os }}
+    runs-on: windows-latest
 
     strategy:
       matrix:
-        os:
-          - windows-latest
         node: [18]
 
     steps:
     - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
+      name: Use Node.js ${{ matrix.node }}
+    - uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node }}
     - name: Installing project dependencies
