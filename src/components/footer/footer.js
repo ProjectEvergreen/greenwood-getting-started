@@ -30,7 +30,7 @@ export default class FooterComponent extends HTMLElement {
         </style>
         <footer class="footer">
           <h4>
-            <a href="https://www.greenwoodjs.io/">My Blog &copy;${year} &#9672 Built with GreenwoodJS</a>
+            <a href="https://www.greenwoodjs.dev/">My Blog &copy;${year} &#9672 Built with GreenwoodJS</a>
           </h4>
         </footer>
       `;
