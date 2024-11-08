@@ -1,22 +1,17 @@
-.content {
+main {
   flex: 1;
   max-width: 50em;
   height: 100%;
   margin: auto;
   font-size: 1.2rem;
   padding: 2rem;
-}
 
-.content h3 {
-  color: #0b6623;
-  font-size: 2rem;
-  margin: 5px 0;
-}
+  & h1,
+  & h2 {
+    margin: 10px 0;
+  }
 
-.content a {
-  color: #1d337a;
-}
-
-.content ul li {
-  padding: 5px 0;
+  & ul li {
+    margin: 0 0 0 20px;
+  }
 }

@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "greenwood build",
-    "develop": "greenwood develop",
-    "start": "npm run develop",
+    "dev": "greenwood develop",
+    "start": "npm run dev",
     "serve": "rimraf ./public && npm run build && greenwood serve",
     "lint:js": "eslint \"./src/**/**/*.js\"",
     "lint:css": "stylelint \"./src/**/*.js\", \"./src/**/*.css\"",

@@ -1,24 +1,22 @@
-<!DOCTYPE html>
-<html lang="en" prefix="og:http://ogp.me/ns#">
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/blog.css" />
+  </head>
   <body>
 
-    <app-header></app-header>
-    
-    <div class='page-template content'>
-
+    <article>
       <content-outlet></content-outlet>
-      
-      <h3>More Posts</h3>
-      <nav>
-        <ul>
-          <li><a href="/blog/second-post/">My Second Post</a></li>
-          <li><a href="/blog/first-post/">My First Post</a></li>
-        </ul>
-      </nav>
+    </article>
+
+    <hr />
+
+    <div class="more-posts">
+      <h4>More Posts</h4>
+      <ul>
+        <li><a href="/blog/first-post/">My First Post</a></li>
+        <li><a href="/blog/second-post/">My Second Post</a></li>
+      </ul>
     </div>
 
-    <app-footer></app-footer>
-
   </body>
-
 </html>
