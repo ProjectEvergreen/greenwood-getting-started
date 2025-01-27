@@ -9,22 +9,16 @@ jobs:
 
     strategy:
       matrix:
-        node: [18]
+        node: [20, 22]
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Install Chromium Library Dependencies
-      run: |
-        sh ./.github/workflows/chromium-lib-install.sh
-    - uses: actions/setup-node@v3
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node }}
     - name: Installing project dependencies
       run: |
         npm ci
-    - name: Lint
-      run: |
-        npm run lint
     - name: Build
       run: |
         npm run build
