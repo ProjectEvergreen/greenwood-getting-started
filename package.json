@@ -21,9 +21,6 @@
     "SSG",
     "SSR"
   ],
-  "engines": {
-    "npm": ">=7.x"
-  },
   "author": "Owen Buckley <owen@thegreenhouse.io>",
   "license": "MIT",
   "bugs": {
@@ -31,6 +28,6 @@
   },
   "homepage": "https://github.com/ProjectEvergreen/greenwood-getting-started#readme",
   "devDependencies": {
-    "@greenwood/cli": "~0.31.0-alpha.6"
+    "@greenwood/cli": "~0.31.0"
   }
 }
