@@ -1,5 +1,9 @@
 const template = document.createElement('template');
 
+import * as d3 from 'd3';
+
+console.log({ d3 });
+
 export default class HeaderComponent extends HTMLElement {
   connectedCallback() {
     if (!this.shadowRoot) {
