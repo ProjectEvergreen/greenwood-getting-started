@@ -1,6 +1,8 @@
 const template = document.createElement('template');
 
 export default class HeaderComponent extends HTMLElement {
+  #logo = new URL("../../assets/greenwood-logo.png", import.meta.url);
+
   connectedCallback() {
     if (!this.shadowRoot) {
       template.innerHTML = `
@@ -41,7 +43,7 @@ export default class HeaderComponent extends HTMLElement {
           <div class="head-wrap">
             <div class="brand">
               <a href="/">
-                <img src="/assets/greenwood-logo.png" alt="Greenwood logo"/>
+                <img src="${this.#logo.pathname.replace(window.location.pathname, "/")}" alt="Greenwood Logo"/>
                 <h4>My Blog</h4>
               </a>
             </div>
