@@ -2,6 +2,7 @@ const template = document.createElement('template');
 
 export default class HeaderComponent extends HTMLElement {
   #logo = new URL("../../assets/greenwood-logo.png", import.meta.url);
+  #node = new URL("../../assets/nodejs.svg", import.meta.url);
 
   connectedCallback() {
     if (!this.shadowRoot) {
@@ -47,6 +48,7 @@ export default class HeaderComponent extends HTMLElement {
                 <h4>My Blog</h4>
               </a>
             </div>
+            <img src="${this.#node.pathname.replace(window.location.pathname, "/")}" alt="NodeJS Logo"/>
           </div>
         </header>
       `;
