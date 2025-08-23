@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/ProjectEvergreen/greenwood-getting-started#readme",
   "devDependencies": {
-    "@greenwood/cli": "~0.33.0-alpha.5"
+    "@greenwood/cli": "~0.33.0-alpha.6"
   }
 }
