@@ -3,12 +3,8 @@
   "version": "1.0.0",
   "description": "Repository for Greenwood's getting started guide",
   "type": "module",
-  "scripts": {
-    "build": "greenwood build",
-    "dev": "greenwood develop",
-    "start": "npm run dev",
-    "serve": "npm run build && greenwood serve"
-  },
+  "author": "Owen Buckley <owen@thegreenhouse.io>",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ProjectEvergreen/greenwood-getting-started.git"
@@ -21,13 +17,14 @@
     "SSG",
     "SSR"
   ],
-  "author": "Owen Buckley <owen@thegreenhouse.io>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ProjectEvergreen/greenwood-getting-started/issues"
+  "scripts": {
+    "build": "greenwood build",
+    "dev": "greenwood develop",
+    "start": "npm run dev",
+    "serve": "npm run build && greenwood serve"
   },
-  "homepage": "https://github.com/ProjectEvergreen/greenwood-getting-started#readme",
   "devDependencies": {
-    "@greenwood/cli": "~0.33.0-alpha.6"
+    "@greenwood/cli": "~0.33.0-alpha.8",
+    "@greenwood/plugin-markdown": "~0.33.0-alpha.8"
   }
 }
