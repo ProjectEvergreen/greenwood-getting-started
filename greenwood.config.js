@@ -1,3 +1,8 @@
+import { greenwoodPluginMarkdown } from "@greenwood/plugin-markdown";
+
 export default {
-  prerender: true
+  prerender: true,
+  plugins: [
+    greenwoodPluginMarkdown()
+  ]
 };
