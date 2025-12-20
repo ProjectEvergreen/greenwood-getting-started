@@ -24,7 +24,7 @@
     "serve": "npm run build && greenwood serve"
   },
   "devDependencies": {
-    "@greenwood/cli": "~0.34.0-alpha.0",
-    "@greenwood/plugin-markdown": "~0.34.0-alpha.0"
+    "@greenwood/cli": "~0.34.0-alpha.2",
+    "@greenwood/plugin-markdown": "~0.34.0-alpha.2"
   }
 }
