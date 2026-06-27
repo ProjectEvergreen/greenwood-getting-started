@@ -21,10 +21,10 @@
     "build": "greenwood build",
     "dev": "greenwood develop",
     "start": "npm run dev",
-    "serve": "npm run build && greenwood serve"
+    "serve": "greenwood serve"
   },
   "devDependencies": {
-    "@greenwood/cli": "~0.34.0-alpha.6",
-    "@greenwood/plugin-markdown": "~0.34.0-alpha.6"
+    "@greenwood/cli": "~0.34.0-alpha.7",
+    "@greenwood/plugin-markdown": "~0.34.0-alpha.7"
   }
 }
